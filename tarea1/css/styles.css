@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  margin: 0 auto;
+  width: 1000px; }
+
+li {
+  border: 1px solid green;
+  box-sizing: border-box;
+  float: left;
+  height: 200px;
+  list-style: none;
+  width: 200px; }
+
+@font-face {
+  font-family: 'Alex';
+  src: url("../font/alexbrush-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+.font-face {
+  font: bold 40px 'Alex', sans; }
+
+.gradient {
+  height: 200px;
+  width: 1000px;
+  background-color: black;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0e1291+0,ffffff+26,ff2828+52,ff2828+52,ffffff+77,0e1291+100 */
+  background: #0e1291;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #0e1291 0%, #ffffff 26%, #ff2828 52%, #ff2828 52%, #ffffff 77%, #0e1291 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #0e1291 0%, #ffffff 26%, #ff2828 52%, #ff2828 52%, #ffffff 77%, #0e1291 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #0e1291 0%, #ffffff 26%, #ff2828 52%, #ff2828 52%, #ffffff 77%, #0e1291 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e1291', endColorstr='#0e1291',GradientType=0 );
+  /* IE6-9 */ }
+
+.clear:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+.clear {
+  display: inline-block; }
+
+/* start commented backslash hack \*/
+* html .clear {
+  height: 1%; }
+
+.clear {
+  display: block; }
+
+/* close commented backslash hack */
+ul {
+  overflow: hidden; }
+
+/*# sourceMappingURL=styles.css.map */
