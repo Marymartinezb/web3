@@ -39,3 +39,18 @@ li {
     background: linear-gradient(to bottom,  #0e1291 0%,#ffffff 26%,#ff2828 52%,#ff2828 52%,#ffffff 77%,#0e1291 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e1291', endColorstr='#0e1291',GradientType=0 ); /* IE6-9 */
 }
+
+.transition {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    transition: background-color, 2s, ease-in;
+}
+
+.transition:hover {
+    background-color: blue;
+}
+
+.transform:hover {
+    transform: translateX(50px);
+}

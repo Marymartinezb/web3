@@ -38,6 +38,18 @@ li {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e1291', endColorstr='#0e1291',GradientType=0 );
   /* IE6-9 */ }
 
+.transition {
+  background-color: green;
+  height: 100px;
+  width: 100px;
+  transition: background-color, 2s, ease-in; }
+
+.transition:hover {
+  background-color: blue; }
+
+.transform:hover {
+  transform: translateX(50px); }
+
 .clear:after {
   visibility: hidden;
   display: block;
