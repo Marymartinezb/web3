@@ -1,0 +1,79 @@
+// GENERAL
+body {
+	font-family: $second-font;
+}
+
+header {
+	background: url("../img/paradaise.jpg") no-repeat;
+	background-size: contain;
+	height: 900px;
+}
+
+h1 {
+	color: #fff;
+	font: 100px $first-font;
+	margin: 200px auto;
+	text-align: center;
+}
+
+li {
+	list-style: none;	
+	display: inline-block;
+}
+
+a {
+	color: #fff;
+	font: 14px helvetica;
+	text-decoration: none;
+	padding: 10px 40px 10px 0;
+}
+
+article {
+	display: inline;
+	float: left;
+	position: relative;
+}
+
+article h4 {
+	color: #fff;
+	font: 30px $first-font;
+	position: absolute;
+	bottom: 20px;
+	right: 100px;
+}
+
+footer {
+	background-color: #000;
+}
+
+// Layout
+
+.opacity {
+	background: rgba(0, 0, 0, .5); 
+	padding: 20px;
+}
+
+.principal-menu {
+	float: right;
+}
+
+.articles {
+	margin: 0 auto;
+	width: 80%;
+}
+
+.about{
+	background: url("../img/about.jpg") no-repeat;
+	background-size: cover;
+	height: 550px;
+}
+
+.float-r {
+	float: right;
+	width: 50%;
+}
+
+.float-l {
+	float: left;
+	width: 20%;
+}

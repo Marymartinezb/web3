@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'kaushan';
+  src: url("../fonts/kaushan.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'montserrat';
+  src: url("../fonts/montserrat.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: montserrat, arial, sans-serif; }
+
+header {
+  background: url("../img/paradaise.jpg") no-repeat;
+  background-size: contain;
+  height: 900px; }
+
+h1 {
+  color: #fff;
+  font: 100px kaushan, arial, sans-serif;
+  margin: 200px auto;
+  text-align: center; }
+
+li {
+  list-style: none;
+  display: inline-block; }
+
+a {
+  color: #fff;
+  font: 14px helvetica;
+  text-decoration: none;
+  padding: 10px 40px 10px 0; }
+
+article {
+  display: inline;
+  float: left;
+  position: relative; }
+
+article h4 {
+  color: #fff;
+  font: 30px kaushan, arial, sans-serif;
+  position: absolute;
+  bottom: 20px;
+  right: 100px; }
+
+footer {
+  background-color: #000; }
+
+.opacity {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px; }
+
+.principal-menu {
+  float: right; }
+
+.articles {
+  margin: 0 auto;
+  width: 80%; }
+
+.about {
+  background: url("../img/about.jpg") no-repeat;
+  background-size: cover;
+  height: 550px; }
+
+.float-r {
+  float: right;
+  width: 50%; }
+
+.float-l {
+  float: left;
+  width: 20%; }
+
+.clearfix {
+  clear: both;
+  overflow: auto;
+  zoom: 1; }
+
+/*# sourceMappingURL=styles.css.map */
