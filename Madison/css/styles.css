@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+.clearfix {
+  display: inline-block; }
+
+/* start commented backslash hack \*/
+* html .clearfix {
+  height: 1%; }
+
+.clearfix {
+  display: block; }
+
+/* close commented backslash hack */
+.btn-green {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  color: black; }
+
+.btn-yellow {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  color: black; }
+
+.btn-red {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  color: black; }
+
+body {
+  background-image: url("../img/background.jpg"); }
+
+header {
+  background-image: url("../img/pattern.png"); }
+
+main {
+  margin: 30px auto;
+  width: 1000px;
+  background-color: #dedad3; }
+
+.social {
+  float: right;
+  padding: 30px 0 0; }
+
+.top-header {
+  padding: 45px 32px 30px; }
+
+.sprites {
+  display: inline-block;
+  background-image: url("../img/social-media-icons.png");
+  background-repeat: no-repeat;
+  color: transparent;
+  height: 32px;
+  width: 32px;
+  padding-left: 7px; }
+
+.as {
+  background-position: 0 -34px; }
+  .as:hover {
+    background-position: 0 0; }
+
+.tumbler {
+  background-position: -43px -34px; }
+  .tumbler:hover {
+    background-position: -43px 0; }
+
+.twitter {
+  background-position: -85px -34px; }
+  .twitter:hover {
+    background-position: -85px 0; }
+
+.dribbble {
+  background-position: -128px -34px; }
+  .dribbble:hover {
+    background-position: -128px 0; }
+
+/*# sourceMappingURL=styles.css.map */

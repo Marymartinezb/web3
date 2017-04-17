@@ -1,0 +1,20 @@
+// GENERAL
+
+body {
+	//font-family: $first-font;
+	background-image: url("../img/background.jpg");
+}
+
+header {
+	background-image: url("../img/pattern.png");
+}
+
+main {
+	margin: 30px auto;
+	width: 1000px;
+	background-color: #dedad3;
+}
+
+//LAYOUT
+
+@import 'layout';

@@ -1,0 +1,41 @@
+.sprites {
+	display: inline-block;
+	background-image: url("../img/social-media-icons.png");
+	background-repeat: no-repeat;
+	color: transparent;
+	height: 32px;
+	width: 32px;
+	padding-left: 7px;
+}
+
+.as {
+	background-position: 0 -34px;
+
+	&:hover {
+		background-position: 0 0;
+	}
+}
+
+.tumbler {
+	background-position: -43px -34px;
+
+	&:hover {
+		background-position: -43px 0;
+	}
+}
+
+.twitter {
+	background-position: -85px -34px;
+
+	&:hover {
+		background-position: -85px 0;
+	}
+}
+
+.dribbble {
+	background-position: -128px -34px;
+
+	&:hover {
+		background-position: -128px 0;
+	}
+}
